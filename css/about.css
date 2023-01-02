@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  background: linear-gradient(
+    270deg,
+    #dc9add,
+    #f19f66,
+    #f37ca5,
+    #f2296e,
+    #29cdf2,
+    #71f229,
+    #29f2ad,
+    #5129f2,
+    #d3f229
+  );
+  background-size: 1800% 1800%;
+
+  -webkit-animation: AnimationName 23s ease infinite;
+  -moz-animation: AnimationName 23s ease infinite;
+  animation: AnimationName 23s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+.about-componet {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-box-about {
+  background-color: #fff;
+  background: linear-gradient(90deg, #ffffff 70%, #4a4b84 30%);
+  background: linear-gradient(90deg, #4a4b84 30%, #fff 30%);
+  width: 85%;
+  /* height: 700px; */
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.intro-box-about {
+  width: 70%;
+}
+
+.intro-box-about div {
+  margin: 20px 5px;
+}
+.skill-box {
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+}
+.bottom {
+  display: flex;
+}
+.skill-box img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.personal-info img {
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  border-radius: 50%;
+}
+.personal-info h3 {
+  margin: 10px;
+  color: #fff;
+  font-size: 20px;
+  align-self: flex-start;
+  flex-wrap: nowrap;
+}
+
+.work-exprience h4 {
+  font-weight: 100;
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .email {
+    font-size: 15px !important;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .email {
+    font-size: 10px !important;
+  }
+  .personal-info img {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .personal-info h3 {
+    font-size: 15px;
+  }
+  .language img {
+    width: 80%;
+  }
+  .skill-box img {
+    width: 150px;
+    height: 150px;
+  }
+}
