@@ -213,11 +213,12 @@ body {
 @media only screen and (max-width: 550px) {
   .intro-box {
     margin-top: 50px;
+    border: none;
   }
-  .intro-box h5,
+  /* .intro-box h5,
   .intro-box h2 {
     font-size: 16px !important;
-  }
+  } */
   .female-programme-img {
     width: 60px;
     height: 60px;
