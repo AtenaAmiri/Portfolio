@@ -91,6 +91,7 @@ body {
   border: 2px dashed rgb(108, 78, 121);
   padding: 20px;
   border-radius: 15px;
+  margin-left: 50px;
 }
 .intro-box h5::before {
   content: "-";
@@ -182,6 +183,10 @@ body {
   }
 }
 @media only screen and (max-width: 800px) {
+  .intro-box {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
   .female-programme-img {
     width: 110px;
     height: 110px;
