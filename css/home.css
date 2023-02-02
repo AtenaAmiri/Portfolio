@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: cursive; */
 }
 
 body {
@@ -215,7 +214,10 @@ body {
     margin-top: 50px;
     border: none;
   }
-  .intro-box h5,
+  .intro-box h5 {
+    font-size: 20px !important;
+  }
+
   .intro-box h2 {
     font-size: 30px !important;
   }
@@ -250,8 +252,11 @@ body {
   }
 }
 @media only screen and (max-width: 280px) {
-  .intro-box h5,
-  .intro-box h2 {
+  .intro-box h5 {
     font-size: 16px !important;
+  }
+
+  .intro-box h2 {
+    font-size: 20px !important;
   }
 }
