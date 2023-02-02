@@ -205,3 +205,51 @@ body {
     top: 55%;
   }
 }
+@media only screen and (max-width: 550px) {
+  /* .left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+  .intro-box {
+    margin-top: 50px;
+    left: 10%;
+  }
+
+  .female-programme-img {
+    width: 60px;
+    height: 60px;
+    right: 25%;
+  }
+  .binary-img {
+    width: 60px;
+    height: 60px;
+    right: 25%;
+    top: 30%;
+  }
+  .code-img {
+    width: 60px;
+    height: 60px;
+    right: 25%;
+  }
+  .computer-img {
+    width: 60px;
+    height: 60px;
+    right: 25%;
+    top: 55%;
+  }
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar ul li {
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .intro-box h5,
+  .intro-box h2 {
+    font-size: 16px !important;
+  }
+}
