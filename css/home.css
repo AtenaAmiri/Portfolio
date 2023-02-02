@@ -91,7 +91,6 @@ body {
   border: 2px dashed rgb(108, 78, 121);
   padding: 20px;
   border-radius: 15px;
-  margin-left: 50px;
 }
 .intro-box h5::before {
   content: "-";
