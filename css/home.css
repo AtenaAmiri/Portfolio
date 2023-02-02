@@ -206,17 +206,14 @@ body {
   }
 }
 @media only screen and (max-width: 550px) {
-  /* .left {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } */
   .intro-box {
     margin-top: 50px;
     left: 5%;
   }
-
+  .intro-box h5,
+  .intro-box h2 {
+    font-size: 25px !important;
+  }
   .female-programme-img {
     width: 60px;
     height: 60px;
